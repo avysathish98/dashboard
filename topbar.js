@@ -14,8 +14,8 @@
   // -------- Supabase config (same project as the rest of the dashboard) --------
   // For your audience's standalone, replace these with placeholders
   // and have them paste their own values, just like the other pages.
-  const TOPBAR_SUPABASE_URL = 'PASTE-YOUR-SUPABASE-PROJECT-URL-HERE';
-  const TOPBAR_SUPABASE_KEY = 'PASTE-YOUR-SUPABASE-PUBLISHABLE-KEY-HERE';
+  const TOPBAR_SUPABASE_URL = 'https://bhpofxmrchcjlczqraaw.supabase.co';
+  const TOPBAR_SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJocG9meG1yY2hjamxjenFyYWF3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk5MDc2NDUsImV4cCI6MjA5NTQ4MzY0NX0.Bea8N7xjkYdLRfc4JQmRTX5biCD6t0KT3srLinnpmcw';
 
   // -------- CSS --------
   const css = `
