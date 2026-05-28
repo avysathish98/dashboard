@@ -21,8 +21,8 @@
   const css = `
 .topbar {
   position: sticky; top: 0; z-index: 40;
-  display: flex; gap: 6px;
-  padding: max(59px, env(safe-area-inset-top)) 14px 10px;  /* Fully opaque so each page's body background can't bleed through
+  display: flex; gap: 4px;
+  padding: max(59px, env(safe-area-inset-top)) 8px 10px;  /* Fully opaque so each page's body background can't bleed through
      and tint the bar a different color. Matches the dashboard's base
      dark background so the bar feels continuous with the page chrome. */
   background: #0a0a0b;
@@ -31,8 +31,8 @@
 }
 .topbar-pill {
   flex: 1 1 0; min-width: 0;
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 8px 12px;
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 8px 6px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 11px;
@@ -115,7 +115,7 @@
   .topbar-pill-count { font-size: 11px; }
   .topbar-water-add { width: 32px; font-size: 16px; }
 }
-@media (max-width: 430px) {
+@media (max-width: 380px) {
   .topbar-pill-label { display: none; }
 }
 
