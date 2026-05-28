@@ -112,11 +112,9 @@
 }
  
 @media (max-width: 480px) {
-  #topbarGym .topbar-pill-label,
-  #topbarFinance .topbar-pill-label { display: none; }
   .topbar { padding-left: 6px; padding-right: 6px; gap: 3px; }
   .topbar-pill, .topbar-water-pill { padding: 7px 4px; gap: 3px; }
-  .topbar-pill-label { font-size: 8px; letter-spacing: 0.06em; }
+  .topbar-pill-label { font-size: 7px; letter-spacing: 0.04em; }
   .topbar-pill-count { font-size: 10px; }
   .topbar-water-add { width: 28px; font-size: 14px; }
 }
