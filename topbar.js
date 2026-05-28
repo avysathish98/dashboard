@@ -115,7 +115,7 @@
   .topbar-pill-count { font-size: 11px; }
   .topbar-water-add { width: 32px; font-size: 16px; }
 }
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .topbar-pill-label { display: none; }
 }
 
